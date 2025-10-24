@@ -61,11 +61,16 @@ It integrates multiple communication modules, sensors, and interfaces—making i
 
 ```
 ├── /examples
-│   ├── wifi_mqtt/
-│   ├── gsm_data_upload/
-│   ├── sdcard_logger/
-│   ├── temp_sensor_display/
-│   └── rtc_time_display/
+│   ├── 0_DefaultCode/
+│   ├── 1_LED/
+│   ├── 2_Button/
+│   ├── 3_LCD/
+│   ├── 4_LCD_with_TempretureSensor/
+│   ├── 5_LCD_with_RTC/
+│   ├── 6_GSM_Msg/
+│   ├── 7_MQTT_Wifi_LED_OnOff/
+│   ├── 8_MQTT_GSM_LED_OnOff/
+│   └── 9_MQTT_TempretureSensor/
 ├── /docs
 │   ├── hardware_schematic.pdf
 │   ├── pin_mapping.txt
